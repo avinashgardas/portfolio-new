@@ -1,0 +1,13 @@
+// global styles
+@import "./assets/styles/variables";
+@import "./assets/styles/mixins";
+@import "./assets/styles/main.min.css";
+@import "./assets/styles/module_39371230024_social-follow.min.css";
+@import "./assets/styles/module_39391770444_menu-section.min.css";
+@import "./assets/styles/module_49907575702_custom-menu-list.min.css";
+@import "./assets/styles/theme-overrides.min.css";
+@import "./assets/styles/custom_collapse.min.css";
+
+.dnd-section > .row-fluid {
+    max-width: 100% !important;
+}
