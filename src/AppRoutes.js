@@ -16,7 +16,7 @@ class AppRoutes extends Component {
     return (
       <>
       <div data-scroll-container="">
-        <Header/>
+        {/* <Header/> */}
         <Routes>
           <Route 
           index 
