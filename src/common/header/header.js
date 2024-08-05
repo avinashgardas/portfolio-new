@@ -31,7 +31,7 @@ export default class Header extends Component {
                           data-hs-cos-type="logo"
                         >
                           <a
-                            href="https://webisoft.com/?hsLang=en"
+                            href="/"
                             id="hs-link-webisoft_logo_hs_logo_widget"
                             style={{ borderWidth: 0, border: 0, textDecoration: 'none' }}
                           >

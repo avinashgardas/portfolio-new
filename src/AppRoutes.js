@@ -7,6 +7,7 @@ import "./global.scss";
 // pages
 const Home = loadable(() => import("./pages/home"));
 const Projects = loadable(() => import("./pages/projects"));
+const UnderConstruction = loadable(() => import("./pages/home/under_construction"));
 // common
 const Header = loadable(() => import("./common/header"));
 
@@ -21,7 +22,8 @@ class AppRoutes extends Component {
           index 
           element={
             <Suspense fallback={<LazyLoadModal />}>
-              <Home/>
+              {/* <Home/> */}
+              <UnderConstruction />
             </Suspense>
           } />
           <Route 

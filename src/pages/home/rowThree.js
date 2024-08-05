@@ -3,6 +3,7 @@ import ProjectOne from "./projectOne";
 import ProjectTwo from "./projectTwo";
 import ProjectThree from "./projectThree";
 import ProjectFour from "./projectFour";
+import ProjectFive from "./projectFive";
 
 export default class RowThree extends Component {
 
@@ -82,6 +83,7 @@ export default class RowThree extends Component {
         <ProjectTwo />
         <ProjectFour />
         <ProjectThree />
+        <ProjectFive />
       </>
     );
   }

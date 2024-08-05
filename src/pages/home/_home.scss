@@ -633,3 +633,9 @@ a.cta_button {
 .row-number-5 {
   padding-top: 5em;
 }
+
+@media (max-width: 991px) {
+  .content-wrapper--vertical-spacing, .dnd-section {
+    margin-top: 32px;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class RowOne extends Component {
+export default class underConstructionText extends Component {
   render() {
     return (
       <div className="row-fluid-wrapper row-depth-1 row-number-1 home-row-0-force-full-width-section dnd-section home-row-0-padding">
@@ -32,12 +32,12 @@ export default class RowOne extends Component {
                           <h1>
                           Hello 👋 I'm <span style={{ color: "#0250ef" }}>
                               Avinash Gardas
-                            </span> - passionate web designer and developer based in Ottawa, Canada.
+                            </span> - the site is currently under renovation
                           </h1>
                           <p>
-                            This portfolio has a brief details of the projects that I worked on.
+                            This portfolio will have a brief details of the projects that I worked on
                           </p>
-                          <div className="button-container">
+                          {/* <div className="button-container">
                             <a
                               href="#about"
                               target="_self"
@@ -47,7 +47,7 @@ export default class RowOne extends Component {
                             >
                               Explore
                             </a>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                       {/* <div className="custom-col secondary-col"></div>
